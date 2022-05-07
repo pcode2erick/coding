@@ -3,7 +3,7 @@ import youtube_dl
 import os
 
 #Define the video URL
-playlist_url="https://youtu.be/DKYpSNS2rM8"
+playlist_url="https://youtu.be/YZPFbnk_RS0"
 try:
         #Download data and config
         meta = youtube_dl.YoutubeDL().extract_info(url=playlist_url,download=False)
